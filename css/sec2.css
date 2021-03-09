@@ -1,0 +1,25 @@
+.sec2 {
+    text-align: center;
+    padding: 3% 0;
+    border-top: 5px #333 solid;
+    border-bottom: 5px #333 solid;
+}
+
+.palette_text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.palette_text h2 {
+    margin-bottom: 2%;
+}
+
+.palette_text p {
+    margin-bottom: 5%;
+}
+
+.palette_text a {
+    padding: 2% 5%;
+    border: 3px #333 solid;
+    border-radius: 50px;
+}

@@ -1,0 +1,75 @@
+.sec1 {
+    background-image: url(/img/background.png);
+    padding-bottom: 4%;
+}
+
+.yohaku{
+    padding: 0 8%;
+}
+
+.sec1_title {
+    text-align: center;
+}
+
+.title_3{
+    font-size: 2rem;
+}
+
+.sec1_point{
+    position: relative;
+    background: #fcfcfc;
+    border-radius: 20px;
+    padding: 3%;
+    width: 80%;
+    margin: 6% 0;
+}
+
+.sec1_point2{
+    margin: 6% 0 6% auto;
+}
+
+.number{
+    position: absolute;
+    left: 0px;
+    top: -30px;
+    width: 10%;
+}
+
+.number2{
+    left: auto;
+    right: 0px;
+}
+
+.point_con{
+    display: flex;
+}
+
+.point_text{
+    width: 60%;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+
+.point_text p{
+    line-height: 28px;
+}
+
+.point_text_head{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 2% 0;
+}
+
+.point_img{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+}
+
+.point_img3{
+    width: 30%;
+}
+
+.point_text3{
+    padding-top: 8%;
+}

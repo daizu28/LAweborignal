@@ -1,0 +1,100 @@
+body {
+    color: #333;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', YuGothic, 'Yu Gothic', sans-serif;
+}
+
+/*ヘッダーのcss書くよ*/
+
+header {
+    padding: 3% 20% 0 20%;
+    background-color: #fcfcfc;
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+h2 {
+    letter-spacing: 2px;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 3px solid #333;
+    border-radius: 50px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.header_title {
+    padding: 10% 0 0 0;
+}
+
+.header_title h1{
+    font-size: 3rem;
+}
+
+.title1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.title1 h1 {
+    margin-left: 10px;
+}
+
+.iro {
+    width: 150px;
+    height: auto;
+}
+
+.title2{
+    padding: 1% 0;
+}
+
+.title3 {
+    line-height: 30px;
+}
+
+.nami{
+    height: 40vh;
+    width: auto;
+    background-image: url(/img/header_nami1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*セクションごとのタイトルの飾り*/
+.title_deco:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    margin: 0 2px;
+    background-image: url(/img/head1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title_deco:after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    margin: 0 2px;
+    background-image: url(/img/head2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
