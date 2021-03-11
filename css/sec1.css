@@ -3,19 +3,21 @@
     padding-bottom: 4%;
 }
 
-.yohaku{
-    padding: 0 8%;
+.yohaku {
+    padding: 0 0;
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .sec1_title {
     text-align: center;
 }
 
-.title_3{
+.title_3 {
     font-size: 2rem;
 }
 
-.sec1_point{
+.sec1_point {
     position: relative;
     background: #fcfcfc;
     border-radius: 20px;
@@ -24,52 +26,52 @@
     margin: 6% 0;
 }
 
-.sec1_point2{
+.sec1_point2 {
     margin: 6% 0 6% auto;
 }
 
-.number{
+.number {
     position: absolute;
     left: 0px;
     top: -30px;
     width: 10%;
 }
 
-.number2{
+.number2 {
     left: auto;
     right: 0px;
 }
 
-.point_con{
+.point_con {
     display: flex;
 }
 
-.point_text{
+.point_text {
     width: 60%;
     padding-top: 2%;
     padding-right: 4%;
 }
 
-.point_text p{
+.point_text p {
     line-height: 28px;
 }
 
-.point_text_head{
+.point_text_head {
     font-size: 1.4rem;
     font-weight: 600;
     margin: 2% 0;
 }
 
-.point_img{
+.point_img {
     width: 40%;
     height: auto;
     object-fit: contain;
 }
 
-.point_img3{
+.point_img3 {
     width: 30%;
 }
 
-.point_text3{
+.point_text3 {
     padding-top: 8%;
 }
