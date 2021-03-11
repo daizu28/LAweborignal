@@ -24,7 +24,7 @@
 .stripe {
     position: relative;
     display: inline-block;
-    padding: 1.5% 3%;
+    padding:  1% 1.5%;
     background-image: linear-gradient(-45deg,
             #F2C200 6.25%, #F2C200 12.5%,
             #0090CA 12.5%, #0090CA 25%,
@@ -51,11 +51,12 @@
     z-index: -1;
 }
 
-.palette_a {
+.stripe a{
+    display:block;
     z-index: 4;
 }
 
-.palette_a i {
+.palette_text i {
     margin-left: 3px;
 }
 
