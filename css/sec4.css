@@ -1,0 +1,41 @@
+.sec4,
+.sec5 {
+    text-align: center;
+    margin-top: 12%;
+}
+
+.sec4_book {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.book1 {
+    width: 28%;
+}
+
+.book_title {
+    font-weight: 600;
+}
+
+.book1 p {
+    text-align: left;
+    margin-top: 4%;
+}
+
+.sec5 p {
+    margin: 1% 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 12%;
+    padding: 2% 0;
+    background-color: #F7F7F7;
+    color: #B2B2B2;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: #B2B2B2;
+}

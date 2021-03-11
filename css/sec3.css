@@ -124,13 +124,13 @@
 }
 
 .kiso_red:befor {
- border-right: 90px solid #E83954;
+    border-right: 90px solid #E83954;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
 }
 
-.kiso_red p{
-        border-bottom: solid 3px #E83954;
+.kiso_red p {
+    border-bottom: solid 3px #E83954;
 }
 
 .sankaku_red {
@@ -143,24 +143,46 @@
 
 
 .kiso_blue {
-    border: 4px solid #E83954;
+    border: 4px solid #0090CA;
 }
 
 .kiso_blue:befor {
- border-right: 90px solid #E83954;
+    border-right: 90px solid #0090CA;
     border-top: 40px solid transparent;
     border-bottom: 40px solid transparent;
 }
 
-.kiso_blue p{
-        border-bottom: solid 3px #E83954;
+.kiso_blue p {
+    border-bottom: solid 3px #0090CA;
 }
 
 .sankaku_blue {
-    border-right: 100px solid #E83954;
+    border-right: 100px solid #0090CA;
 }
 
 .kiso_back_blue {
-    background-color: rgba(232, 57, 84, 1);
+    background-color: rgba(0, 144, 202, 1);
 }
 
+
+.kiso_yellow {
+    border: 4px solid #F2C200;
+}
+
+.kiso_yellow:befor {
+    border-right: 90px solid #F2C200;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.kiso_yellow p {
+    border-bottom: solid 3px #F2C200;
+}
+
+.sankaku_yellow {
+    border-right: 100px solid #F2C200;
+}
+
+.kiso_back_yellow {
+    background-color: rgba(242, 194, 0, 1);
+}
