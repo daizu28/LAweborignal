@@ -90,6 +90,12 @@
     z-index: 1;
 }
 
+.sec3_kiso2:before,
+.sec3_kiso2:after {
+    content: '';
+        transform: scale(-1, 1);
+}
+
 .kiso_back {
     position: absolute;
     right: -15px;
@@ -117,6 +123,10 @@
     border-bottom: 50px solid transparent;
     transform: rotate(-120deg);
     z-index: -5;
+}
+
+.kiso_sankaku2{
+            transform: scale(-1.2, 1);
 }
 
 .kiso_red {
