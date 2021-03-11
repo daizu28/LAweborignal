@@ -1,40 +1,166 @@
-.sec3{
+.sec3 {
     padding-top: 8%;
 }
 
 
-.sec3_title{
+.sec3_title {
     text-align: center;
 }
 
-.sec3_kiso{
+.kiso_all {
+    margin: 8% 0;
+}
+
+.sec3_kiso {
     position: relative;
     text-align: center;
-    background: #aaa;
-    width: 400px;
-    height: 200px;
+    background: #fff;
+    width: 480px;
+    height: 280px;
     border-radius: 20px;
+    border: 4px solid #62B91E;
+    margin: -2% 0 -2% 0;
 }
 
-.kiso_text{
+.sec3_kiso2 {
+    margin: -2% 0 -2% auto;
+}
+
+
+.sec3_kiso a {
     position: absolute;
-    top: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.kiso_deco1 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.kiso_deco2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 60px;
+    height: auto;
+}
+
+.kiso_text {
+    position: absolute;
+    top: 58%;
     left: 50%;
     width: 100%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.sec3_kiso:before{
-  content: '';
-  position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  left: 50%;
-  bottom: -40px;
-  border-right: 90px solid  #aaa;
-  border-top: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  transform: rotate(-135deg);
+.kiso_text p {
+    padding-top: 7px;
+    padding-bottom: 3px;
+    width: 20%;
+    margin: 0 auto;
+    border-bottom: solid 3px #62B91E;
+}
+
+.sec3_kiso:before,
+.sec3_kiso:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    left: 48%;
+    bottom: -40px;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    transform: rotate(-120deg);
+    z-index: -2;
+}
+
+
+.sec3_kiso:after {
+    left: 47%;
+    bottom: -36px;
+    border-right: 90px solid #fff;
+    z-index: 1;
+}
+
+.kiso_back {
+    position: absolute;
+    right: -15px;
+    bottom: -20px;
+    width: 480px;
+    height: 280px;
+    border-radius: 20px;
+    z-index: -2;
+    background-size: auto auto;
+    background-color: rgba(98, 185, 30, 1);
+    background-image: repeating-linear-gradient(135deg, transparent, transparent 25px, rgba(255, 255, 255, 0.19) 25px, rgba(255, 255, 255, 0.19) 50px);
+}
+
+.kiso_sankaku {
+    position: absolute;
+    display: block;
+    right: -15px;
+    bottom: -50px;
+    width: 0;
+    height: 0;
+    left: 47%;
+    bottom: -55px;
+    border-right: 100px solid #62B91E;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    transform: rotate(-120deg);
+    z-index: -5;
+}
+
+.kiso_red {
+    border: 4px solid #E83954;
+}
+
+.kiso_red:befor {
+ border-right: 90px solid #E83954;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.kiso_red p{
+        border-bottom: solid 3px #E83954;
+}
+
+.sankaku_red {
+    border-right: 100px solid #E83954;
+}
+
+.kiso_back_red {
+    background-color: rgba(232, 57, 84, 1);
+}
+
+
+.kiso_blue {
+    border: 4px solid #E83954;
+}
+
+.kiso_blue:befor {
+ border-right: 90px solid #E83954;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+}
+
+.kiso_blue p{
+        border-bottom: solid 3px #E83954;
+}
+
+.sankaku_blue {
+    border-right: 100px solid #E83954;
+}
+
+.kiso_back_blue {
+    background-color: rgba(232, 57, 84, 1);
 }
 

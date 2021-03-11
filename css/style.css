@@ -1,6 +1,11 @@
+html{
+    font-size: 16px;
+}
+
 body {
     color: #333;
     font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', YuGothic, 'Yu Gothic', sans-serif;
+    width: 100vw;
 }
 
 /*ヘッダーのcss書くよ*/
