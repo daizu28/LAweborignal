@@ -1,0 +1,142 @@
+@media screen and (max-width:479px) {
+
+
+    html {
+        font-size: 14px;
+    }
+
+    body {}
+
+    header {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    p {
+        letter-spacing: 0.5px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .title1 img {
+        width: 30%;
+        height: auto;
+    }
+
+    .header_title {
+        padding: 30% 5%;
+    }
+
+    .header_title h1 {
+        font-size: 2rem;
+    }
+
+    .yohaku {
+        padding: 0 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .sec1_point {
+        padding: 10% 3% 0% 3%;
+        width: 85%;
+        margin: 20% auto;
+
+    }
+
+    .point_con {
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .point_text {
+        text-align: left;
+    }
+
+    .point_text {
+        width: 100%;
+        padding: 0;
+    }
+
+    .point_img {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .number {
+        width: 30%;
+    }
+
+    .sec2 {
+        margin-top: 5%;
+        padding: 10% 3%;
+    }
+
+    .palette_text p {
+        text-align: left;
+    }
+
+    .stripe {
+        padding: 5% 10.5%;
+    }
+
+    .sec3 {
+        margin-top: 25%;
+    }
+
+    .kiso_all {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .kiso_rotate {
+        width: 95%;
+        margin: 20% auto;
+        padding: 2% 0;
+    }
+
+    .kiso_rotate_gyaku {
+        width: 95%;
+        margin: 20% auto;
+    }
+
+    .sec3_kiso {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .kiso_back {
+        width: 100%;
+        margin: 0 auto;
+        right: 0px;
+    }
+
+    .sec4 {
+        margin-top: 30%;
+    }
+
+    .sec4_book {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .book1 {
+        width: 90%;
+        padding: 0 5%;
+        margin: 10% 0;
+    }
+
+    .sec5 {
+        padding: 0 5%;
+        margin-bottom: 10%;
+    }
+
+    .sec5 p{
+        text-align: left;
+    }
+
+}
