@@ -1,0 +1,236 @@
+body {
+    background-image: url(/img/background.png);
+}
+
+.template_all {
+    
+}
+
+.palette_all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.palette {
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    /*    border: solid 0.5px #2D2D2D;*/
+    box-shadow: 4px 4px 2px rgba(45, 45, 45, 0.1);
+    border-radius: 10px;
+    padding: 2% 1%;
+    text-align: center;
+    margin: 0 0.6rem 2rem 0.6rem;
+}
+
+.palette_top img {
+    width: 90%;
+    height: auto;
+}
+
+.palette_code {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 0;
+}
+
+.palette_code p {
+    padding: 0.25em 0.2em 0.25rem 0.2rem;
+    font-size: 0.8rem;
+}
+
+.palette_template {
+    display: flex;
+    justify-content: space-around;
+}
+
+.palette_template img {
+    width: 90%;
+    height: auto;
+}
+
+
+
+.code_1 {
+    border-left: 25px solid #fbfaef;
+}
+.code_2 {
+    border-left: 25px solid #F5B8CC;
+}
+.code_3 {
+    border-left: 25px solid #4ABCD9;
+}
+.code_4 {
+    border-left: 25px solid #FCEBEF;
+}
+.code_5 {
+    border-left: 25px solid #F6C0D1;
+}
+.code_6 {
+    border-left: 25px solid #EF8893;
+}
+.code_7 {
+    border-left: 25px solid #FEFEFE;
+}
+.code_8 {
+    border-left: 25px solid #E83820;
+}
+.code_9 {
+    border-left: 25px solid #7DBCE8;
+}
+.code_10 {
+    border-left: 25px solid #FDFBEB;
+}
+.code_11 {
+    border-left: 25px solid #C81D09;
+}
+.code_12 {
+    border-left: 25px solid #CEA754;
+}
+.code_13 {
+    border-left: 25px solid #FFFDF6;
+}
+.code_14 {
+    border-left: 25px solid #F49C2D;
+}
+.code_15 {
+    border-left: 25px solid #C4D700;
+}
+.code_16 {
+    border-left: 25px solid #FBD8B5;
+}
+.code_17 {
+    border-left: 25px solid #ED6D3D;
+}
+.code_18 {
+    border-left: 25px solid #EFA718;
+}
+.code_19 {
+    border-left: 25px solid #FDFDFB;
+}
+.code_20 {
+    border-left: 25px solid #FDD000;
+}
+.code_21 {
+    border-left: 25px solid #F5F3F2;
+}
+.code_22 {
+    border-left: 25px solid #fbfaef;
+}
+.code_23 {
+    border-left: 25px solid #E7BE99;
+}
+.code_24 {
+    border-left: 25px solid #D1AE15;
+}
+.code_25 {
+    border-left: 25px solid #FDFDFD;
+}
+.code_26 {
+    border-left: 25px solid #E6E500;
+}
+.code_27 {
+    border-left: 25px solid #5FC1C7;
+}
+.code_28 {
+    border-left: 25px solid #EBF7F7;
+}
+.code_29 {
+    border-left: 25px solid #BCD537;
+}
+.code_30 {
+    border-left: 25px solid #74A64C;
+}
+.code_31 {
+    border-left: 25px solid #E6EEF6;
+}
+.code_32 {
+    border-left: 25px solid #009B6B;
+}
+.code_33 {
+    border-left: 25px solid #F9C15F;
+}
+.code_34 {
+    border-left: 25px solid #ECEAB7;
+}
+.code_35 {
+    border-left: 25px solid #90A362;
+}
+.code_36 {
+    border-left: 25px solid #A43121;
+}
+.code_37 {
+    border-left: 25px solid #F9F9F9;
+}
+.code_38 {
+    border-left: 25px solid #08D9D6;
+}
+.code_39 {
+    border-left: 25px solid #FF2E63;
+}
+.code_40 {
+    border-left: 25px solid #FFFEF1;
+}
+.code_41 {
+    border-left: 25px solid #BBE2F1;
+}
+.code_42 {
+    border-left: 25px solid #F7C4D4;
+}
+.code_43 {
+    border-left: 25px solid #EAF6FD;
+}
+.code_44 {
+    border-left: 25px solid #002A5B;
+}
+.code_45 {
+    border-left: 25px solid #D7000F;
+}
+.code_46 {
+    border-left: 25px solid #EEF1F7;
+}
+.code_47 {
+    border-left: 25px solid #005481;
+}
+.code_48 {
+    border-left: 25px solid #79A7D9;
+}
+.code_49 {
+    border-left: 25px solid #F7FAFC;
+}
+.code_50 {
+    border-left: 25px solid #6639A6;
+}
+.code_51 {
+    border-left: 25px solid #3490DE;
+}
+.code_52 {
+    border-left: 25px solid #FEFAF4;
+}
+.code_53 {
+    border-left: 25px solid #AA96DA;
+}
+.code_54 {
+    border-left: 25px solid #DEFCF9;
+}
+.code_55 {
+    border-left: 25px solid #FFFFFC;
+}
+.code_56 {
+    border-left: 25px solid #1A0B08;
+}
+.code_57 {
+    border-left: 25px solid #E3DFDC;
+}
+.code_58 {
+    border-left: 25px solid #FDFDFD;
+}
+.code_59 {
+    border-left: 25px solid #E6E5EF;
+}
+.code_60 {
+    border-left: 25px solid #CED7DC;
+}
+
