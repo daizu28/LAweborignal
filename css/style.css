@@ -34,16 +34,15 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 10px 15px;
-    background-image:linear-gradient(
-      -45deg,
-      #F2C200 6.25%, #F2C200 12.5%,
-        #0090CA 12.5%, #0090CA 25%,
-      #E83954 25%, #E83954 37.5%,
-      #62B91E 37.5%, #62B91E 50%,
-      #F2C200 50%, #F2C200 62.5%,
-        #0090CA 62.5%, #0090CA 75%,
-      #E83954 75%, #E83954 87.5%,
-      #62B91E 87.5%, #62B91E 100%);
+    background-image: linear-gradient(-45deg,
+            #F2C200 6.25%, #F2C200 12.5%,
+            #0090CA 12.5%, #0090CA 25%,
+            #E83954 25%, #E83954 37.5%,
+            #62B91E 37.5%, #62B91E 50%,
+            #F2C200 50%, #F2C200 62.5%,
+            #0090CA 62.5%, #0090CA 75%,
+            #E83954 75%, #E83954 87.5%,
+            #62B91E 87.5%, #62B91E 100%);
     border-radius: 50px;
     position: relative;
     margin: 3% 0 10% 0;
@@ -62,16 +61,20 @@ p {
 
 }
 
-li{
+.top_nav li {
     z-index: 3;
 }
 
+.top_nav a:hover {
+    font-size: 1.1rem;
+}
 
 a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
     z-index: 3;
+    transition: 0.5s;
 }
 
 .header_title {}
@@ -132,4 +135,3 @@ a {
     background-repeat: no-repeat;
     background-size: contain;
 }
-

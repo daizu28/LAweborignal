@@ -22,8 +22,24 @@
     margin: -2% 0 -2% 0;
 }
 
-.sec3_kiso2 {
-    margin: -2% 0 -2% auto;
+.kiso_rotate {
+    width: 480px;
+    height: 280px;
+}
+
+.kiso_rotate:hover {
+    transform: rotate(-5deg);
+}
+
+.kiso_rotate_gyaku{
+    width: 480px;
+    height: 280px;
+        margin: -2% 0 -2% auto;
+    
+}
+
+.kiso_rotate_gyaku:hover {
+    transform: rotate(5deg);
 }
 
 
@@ -93,7 +109,7 @@
 .sec3_kiso2:before,
 .sec3_kiso2:after {
     content: '';
-        transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
 .kiso_back {
@@ -125,8 +141,8 @@
     z-index: -5;
 }
 
-.kiso_sankaku2{
-            transform: scale(-1.2, 1);
+.kiso_sankaku2 {
+    transform: scale(-1.2, 1);
 }
 
 .kiso_red {

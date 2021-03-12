@@ -1,0 +1,39 @@
+.color_image {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.color_image img{
+    width: 100%;
+    height: auto;
+}
+
+.color_image ul {
+    list-style: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    /*    flex-flow: wrap;*/
+}
+
+.color_image li {
+    display: flex;
+}
+
+.color_name {
+    padding: 0.3em 1em;
+    vertical-align: bottom;
+}
+
+.colo_name p {
+    margin: 0.2rem;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.image_red {
+    background-color: #aaa;
+    color: #fff;
+}

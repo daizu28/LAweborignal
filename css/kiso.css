@@ -23,7 +23,7 @@
 
 .kiji {
     width: 100%;
-    margin: 10% auto;
+    margin: 10% auto 5% auto;
     display: flex;
     justify-content: space-around;
 }
