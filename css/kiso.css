@@ -6,6 +6,11 @@
 
 .back {
     margin: 2% 0;
+    transition: 0.5s;
+}
+
+.back:hover{
+    opacity: 0.5;
 }
 
 .back i {
@@ -52,6 +57,11 @@
 
 .totop {
     text-align: right;
+    transition: 0.5s;
+}
+
+.totop:hover{
+    opacity: 0.5;
 }
 
 .totop_stripe {
@@ -114,6 +124,10 @@
     height: 200px;
     border-radius: 20px;
     border: 4px solid #62B91E;
+}
+
+.other_rotate:hover{
+    transform: rotate(-3deg);
 }
 
 .other_child:before,

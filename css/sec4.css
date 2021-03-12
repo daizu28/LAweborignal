@@ -14,6 +14,10 @@
     width: 28%;
 }
 
+.book1 a:hover{
+    opacity: 0.5;
+}
+
 .book_title {
     font-weight: 600;
 }
