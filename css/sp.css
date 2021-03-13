@@ -87,6 +87,10 @@
     .sec3 {
         margin-top: 25%;
     }
+    
+    .kiso_text p{
+        width: 30%;
+    }
 
     .kiso_all {
         width: 100%;
@@ -135,8 +139,71 @@
         margin-bottom: 10%;
     }
 
-    .sec5 p{
+    .sec5 p {
         text-align: left;
+    }
+
+    .back .stripe {
+        padding: 3%;
+        margin: 5% 3%;
+    }
+
+    .kiji_head {
+        padding-top: 10%;
+    }
+
+    .palette_all {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .palette {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .kiji_all {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .kiji {
+        display: inline-block;
+    }
+
+    .kiji_text {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .kiji_img {
+        text-align: center;
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .other_all {
+        display: inline-block;
+        width: 90%;
+    }
+    
+    .other_child {
+    width: auto;
+    height: 200px;
+}
+
+
+
+.other_back {
+    width: 100%;
+    height: 200px;
+    right: 0;
+
+}
+    
+    .other_rotate{
+        margin: 0 0 20% 0;
     }
 
 }
